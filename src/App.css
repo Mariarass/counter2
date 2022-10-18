@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+body{
+  background-color: #ffffff;
+}
+.App {
+  text-align: center;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container{
+  background-color: #dfecff;
+  height: 250px;
+  width: 250px;
+  border-radius:6px;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablo{
+  background-color: #ffffff;
+  height: 150px;
+  width: 200px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.input{
+  width: 80px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  height: 20px;
+  padding: 5px;
+  background: #eeeeee;
+}
+.error{
+  background: #ffc1c1;
+
+}
+.count{
+color: #2b2354;
+  font-size: 30px;
+  font-family: 'Russo One', sans-serif;
+}
+.countError{
+  color: #ff0043;
+}
+.button{
+  background-color: #b3baea;
+  width: 60px;
+  border-radius: 4px;
+  border: none;
+  margin: 3px;
+  cursor: pointer;
+  color: #181c34;
+  font-family: 'Russo One', sans-serif;
+}
+.button:hover{
+  background-color: #a1a6ff;
+}
+.button:disabled{
+  background-color: #d9e0ee;
+  color: #babac2;
+}
+.value{
+  font-family: 'Russo One', sans-serif;
+  color: #494b6e;
+
+}
